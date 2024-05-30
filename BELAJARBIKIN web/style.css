@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 880px;
+    margin: auto;
+    background-color:#EEEEEE;
+    
+
+}
+
+.header{
+    padding: 20px;
+}
+.header .judul {
+   font-size: 50px arial;
+   font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.hero{
+    height: 250px;
+    background-image: url("../q.png");
+    background-size: cover;
+    background-position: 50 -150px;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid rebeccapurple;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.content .penulis{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    width: 860px;
+    padding: 10px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
